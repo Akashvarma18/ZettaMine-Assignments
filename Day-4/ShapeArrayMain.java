@@ -15,25 +15,25 @@ public class ShapeArrayMain {
                 case "Rectangle":
                     double length = input.nextDouble();
                     double width = input.nextDouble();
-                    input.nextLine(); // consume newline
+                    input.nextLine(); 
                     arrayShape[i] = new Rectangle(length, width);
                     break;
                 case "Triangle":
                     double base = input.nextDouble();
                     double height = input.nextDouble();
-                    input.nextLine(); // consume newline
+                    input.nextLine(); 
                     arrayShape[i] = new Triangle(base, height);
                     break;
                 case "Cube":
                     double cubeLength = input.nextDouble();
                     double cubeWidth = input.nextDouble();
                     double cubeHeight = input.nextDouble();
-                    input.nextLine(); // consume newline
+                    input.nextLine(); 
                     arrayShape[i] = new Cube(cubeLength, cubeWidth, cubeHeight);
                     break;
                 case "Sphere":
                     double radius = input.nextDouble();
-                    input.nextLine(); // consume newline
+                    input.nextLine(); 
                     arrayShape[i] = new Sphere(radius);
                     break;
                 default:
@@ -43,7 +43,6 @@ public class ShapeArrayMain {
             }
         }
 
-        input.close(); // Close the scanner after using it
 
         for (Shape shp : arrayShape) {
             System.out.println("Area is = " + shp.area());
