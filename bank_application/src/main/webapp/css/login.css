@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    background-image: url('https://res.cloudinary.com/drgd7mvem/image/upload/v1704108499/hhttbl9ffqsseznmvi35.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bgcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    width: 500px;
+    background-color: #ff6f61;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    height: 65vh;
+}
+
+table {
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.tablerows {
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: 'Bree Serif', sans-serif;
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.login input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    font-size: 25px;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3;
+}
